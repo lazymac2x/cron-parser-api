@@ -1,0 +1,11 @@
+{
+  "name": "cron-parser-api",
+  "version": "1.0.0",
+  "description": "Cron expression parser API — explain, validate, generate, and compute next run times for cron expressions.",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "dev": "node --watch src/server.js" },
+  "keywords": ["cron", "parser", "scheduler", "api", "devtools"],
+  "author": "lazymac2x",
+  "license": "MIT",
+  "dependencies": { "express": "^4.21.0", "cors": "^2.8.5" }
+}
